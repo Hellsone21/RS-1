@@ -1,0 +1,46 @@
+.card__inner {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.container2 {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tit-usl {
+    text-align: center;
+}
+
+.card__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit:contain;
+}
+
+.card__title {
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    background: black;
+    padding: 10px 10px;
+    &:hover {
+        background: red;
+        color: white;
+        transition: .2s linear;
+    }
+}
+
+.card__item {
+    margin-right: 50px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    
+}
+
